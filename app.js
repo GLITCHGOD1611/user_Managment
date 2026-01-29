@@ -50,7 +50,7 @@ app.post('/edit/:id',async (req,res)=>{
     let user = await userModel.findOneAndUpdate({_id:req.params.id},{image , name , email}, {new : true});
     res.redirect('/read')
 })
-app.listen(port,()=>{
+app.listen(PORT,()=>{
 
-    console.log(`server is running on port : ${port}`)
+    console.log(`server is running on port : ${PORT}`)
 })
