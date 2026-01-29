@@ -1,7 +1,18 @@
-# 👤 User Management System
+[# 👤 User Management System
 
 A **User Management System** built using **Node.js, Express.js, MongoDB, and EJS (Server-Side Rendering)**.  
 This project provides full **CRUD (Create, Read, Update, Delete)** functionality with server-side rendered views.
+
+This is a **practice project** focused on strengthening backend development and SSR fundamentals.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Live Application (Render):**  
+https://user-managment-t1zd.onrender.com  
+
+> Note: The app is hosted on Render free tier, so the first request may take a few seconds due to cold start.
 
 ---
 
@@ -20,7 +31,7 @@ This project provides full **CRUD (Create, Read, Update, Delete)** functionality
 
 - **Backend:** Node.js, Express.js  
 - **Frontend (SSR):** EJS  
-- **Database:** MongoDB  
+- **Database:** MongoDB (MongoDB Atlas)  
 - **ODM:** Mongoose  
 - **Styling:** CSS  
 
@@ -29,7 +40,7 @@ This project provides full **CRUD (Create, Read, Update, Delete)** functionality
 ## 📁 Project Structure
 
 ```text
-projects/
+user_Managment/
 ├── models/
 ├── views/
 ├── public/
@@ -38,38 +49,58 @@ projects/
 ├── package.json
 ├── package-lock.json
 └── README.md
+](http://localhost:3000
+)
 ```
-## ⚙️ Installation & Setup
+---
 
-```bash
-git clone https://github.com/GLITCHGOD1611/projects.git
-cd projects
-npm install
-node app.js
+## Open in browser:
 
-```
+http://localhost:3000
+
+---
+
+## 🔐 Environment Variables
+
+Create a .env file in the root directory for local development:
+
+MONGODB_URI=your_mongodb_connection_string
+PORT=3000
+
+.env is not required in production (Render uses environment variables).
+
 ---
 
 ## 📌 Learning Outcomes
 
-- Express routing  
-- MongoDB CRUD operations  
-- EJS templating  
-- Server-Side Rendering (SSR)  
+Express routing and middleware
+
+MongoDB CRUD operations using Mongoose
+
+EJS templating and dynamic rendering
+
+Server-Side Rendering (SSR) concepts
+
+Environment-based configuration (local vs production)
 
 ---
 
 ## 🔮 Future Improvements
 
-- Authentication  
-- Validation  
-- Error handling  
-- Better UI  
+Authentication
+
+Input validation
+
+Error handling
+
+UI enhancements
 
 ---
 
+
 ## 👨‍💻 Author
 
-**Omkar Nandakumar Deshmane**  
+Omkar Nandakumar Deshmane
 GitHub: https://github.com/GLITCHGOD1611
 
+---
